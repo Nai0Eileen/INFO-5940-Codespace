@@ -1,3 +1,25 @@
+# Overview
+This is a simple RAG web program.
+The program lets user upload txt, md, or PDF files, and then ask questions about them.
+The program will search and find the most related parts from files, and answer based on that content.
+
+# How to Run the Program
+1. Install all packages:
+   pip install -r requirements.txt
+2. Insert your API_Key:
+   export API_KEY="API_KEY"
+3. Run the program:
+   streamlit run chat_with_pdf.py
+
+# What I Changed From the Provided Configurations
+Added support for PDF file upload and reading with PyPDF2.
+Added support for multiple file upload at the same time.
+Connected LangChain and Chroma to make the RAG system work.
+Replaced the single text upload logic with loop for all uploaded files.
+Added retriever using Chroma to search relevant chunks.
+Updated requirements.txt with missing libraries.
+
+
 # INFO 5940 
 Welcome to the INFO 5940 repository. You will complete your work using [**GitHub Codespaces**](#about-github-codespaces) and save your progress in your own GitHub repository. This guide will walk you through setting up the development environment and running the test notebook.  
 
