@@ -1,1 +1,1 @@
-
+Working on the multi-agent travel planner taught me how two AI agents can work together like a team. The Planner made creative trip ideas, and the Reviewer checked facts with the internet_search tool to keep things realistic. I learned that clear roles and simple prompts make the system more reliable and natural. One improvement can be made is have the Reviewer output a small “Checked Facts” table, list evidence like item, verified detail, source URL, etc., so the evidence is easy to see and trust.
